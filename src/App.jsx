@@ -9,14 +9,14 @@ import SkillPage from './components/SkillPage';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/PersonalWebsite",
     element: (
         <HomePage/>
     ),
 
   },
   {
-    path: "/skills",
+    path: "/PersonalWebsite/skills",
     element: (
         <SkillPage/>
      
