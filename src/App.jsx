@@ -10,7 +10,7 @@ import SkillPage from './components/SkillPage';
 
 const router = createHashRouter([
   {
-    path: "/PersonalWebsite",
+    path: "/",
     element: (
         <HomePage/>
     ),
