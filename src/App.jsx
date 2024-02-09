@@ -1,22 +1,23 @@
 import { useState } from 'react'
 import './App.css'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import HomePage from './components/HomePage';
 import SkillPage from './components/SkillPage';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/PersonalWebsite",
+    path: "/",
     element: (
         <HomePage/>
     ),
 
   },
   {
-    path: "/PersonalWebsite/skills",
+    path: "PersonalWebsite/skills",
     element: (
         <SkillPage/>
      

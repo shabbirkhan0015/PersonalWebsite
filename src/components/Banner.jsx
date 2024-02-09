@@ -42,10 +42,10 @@ const Banner=()=>{
                     
                     <div className="icons-container flex space-x-5">
                         <a href="https://github.com/shabbirkhan0015?tab=repositories" target="_blank" className=" hover:bg-orange-600 border cursor-pointer  px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-300">
-                        <i class="fa-brands text-4xl fa-github"></i>
+                        <i className="fa-brands text-4xl fa-github"></i>
                         </a>
                         <a href="https://twitter.com/coding_forlife" target="_blank" className=" hover:bg-orange-600  border  cursor-pointer px-3 py-4 w-16 h-16  rounded-full flex justify-center items-center bg-gray-300">
-                        <i class="fa-brands text-4xl fa-x-twitter"></i>
+                        <i className="fa-brands text-4xl fa-x-twitter"></i>
                         </a>
                      </div>
                          <br />
