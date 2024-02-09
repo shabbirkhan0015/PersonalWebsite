@@ -17,7 +17,7 @@ const router = createHashRouter([
 
   },
   {
-    path: "PersonalWebsite/skills",
+    path: "/skills",
     element: (
         <SkillPage/>
      
